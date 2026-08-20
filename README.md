@@ -1,783 +1,417 @@
 # 🤖 AI Career Roadmap Analyzer
 
-### 📊 Interactive Power BI Dashboard for AI Job Market, Salary & Career Analysis
+A professional **Power BI career analytics dashboard** designed to analyze the AI job market, identify in-demand skills, explore career opportunities, and help users understand the skills required for AI-related roles.
 
-> **Explore • Learn • Grow • Succeed**
-
-The **AI Career Roadmap Analyzer** is an interactive **Power BI data analytics project** designed to explore the rapidly growing Artificial Intelligence job market.
-
-The project analyzes **AI job demand, salary trends, experience levels, employment types, geographical opportunities, hiring trends, remote work, emerging AI roles, and career learning paths**.
-
-It combines **data cleaning, transformation, analysis, DAX calculations, data visualization, and interactive dashboard design** to transform raw AI job-market data into meaningful career insights.
+The project combines **Power BI, DAX, Power Query, and Python-based data cleaning** to transform raw AI job-market data into an interactive and decision-oriented dashboard.
 
 ---
 
 ## 📌 Project Overview
 
-The AI industry is continuously evolving, creating new job roles, skills, technologies, and career opportunities.
+The **AI Career Roadmap Analyzer** provides an interactive analysis of the AI job market by examining:
 
-However, aspiring AI professionals often face questions such as:
+* AI and technology job roles
+* In-demand technical skills
+* Job demand across different roles
+* Experience-level requirements
+* Salary trends
+* Geographic distribution of opportunities
+* Industry and company-level patterns
+* Skills required for different career paths
 
-* Which AI roles are most in demand?
-* Which experience levels receive higher salaries?
-* Which countries have more AI opportunities?
-* How is AI hiring changing over time?
-* Which AI roles are emerging?
-* What skills should an aspiring AI professional learn?
-* How is remote AI employment growing?
-* Which career path should a learner follow?
-
-The **AI Career Roadmap Analyzer** addresses these questions through an interactive Power BI dashboard.
-
-The dashboard allows users to explore the AI job market and understand the relationship between **job demand, salary, experience, geography, employment type, and career development**.
+The goal is to turn raw job-market data into meaningful insights that can help **students, freshers, aspiring data professionals, and career planners** understand the AI job market and identify relevant skills to develop.
 
 ---
 
-# 🎯 Project Objectives
+## 🎯 Project Objectives
 
-The major objectives of this project are:
+The main objectives of this project are to:
 
-* Analyze the global AI job market.
-* Identify high-demand AI job roles.
-* Analyze salary patterns across experience levels.
-* Compare AI salaries across countries.
-* Examine hiring trends over time.
-* Analyze employment types.
-* Explore remote AI job opportunities.
-* Identify emerging and growing AI roles.
-* Analyze industry/company-size hiring patterns.
-* Build a structured AI career learning roadmap.
-* Provide career-oriented learning recommendations.
-* Create an interactive and recruiter-friendly Power BI dashboard.
+1. Analyze current AI job-market trends.
+2. Identify the most demanded AI and technology skills.
+3. Compare different AI-related job roles.
+4. Analyze salary and experience requirements.
+5. Understand geographical job distribution.
+6. Identify career opportunities based on required skills.
+7. Build an interactive Power BI dashboard for business-style analysis.
+8. Create a data-driven career roadmap for aspiring AI professionals.
 
 ---
 
-# 📊 Dashboard Pages
+## 🛠️ Tools & Technologies
 
-The project contains **6 interactive dashboard pages**, each designed for a specific analytical purpose.
-
----
-
-## 🏠 1. Project Overview
-
-The **Project Overview** page acts as the landing page of the dashboard.
-
-It introduces the purpose of the project and provides a high-level summary of the AI job market.
-
-### Key Sections
-
-* Total Jobs
-* Total Companies
-* Employment Types
-* AI Job Market Analysis
-* AI Career Development
-* Emerging Technologies
-* Salary Analysis
-* Personalized Career Suggestions
-
-### Main Purpose
-
-This page provides users with an immediate understanding of what the dashboard offers before they begin exploring the detailed analytical pages.
-
-### Dashboard Preview
-
-![Project Overview](Screenshots/01_Project_Overview.png)
+| Technology                | Purpose                                        |
+| ------------------------- | ---------------------------------------------- |
+| **Power BI**              | Dashboard development and data visualization   |
+| **Power Query**           | Data transformation and preparation            |
+| **DAX**                   | KPI calculations and analytical measures       |
+| **Python**                | Data cleaning and preprocessing                |
+| **Pandas**                | Data manipulation and analysis                 |
+| **Microsoft Excel / CSV** | Dataset storage and preparation                |
+| **GitHub**                | Project version control and portfolio showcase |
 
 ---
 
-# 🌍 2. AI Job Market Overview
+## 📊 Dashboard Features
 
-The **AI Job Market Overview** page provides a detailed analysis of AI employment opportunities across countries, roles, experience levels, and years.
+The Power BI report provides multiple interactive analytical pages covering different aspects of the AI job market.
 
-### Key Visualizations
+### 1. 📈 Executive / Overview Dashboard
 
-* Jobs by Country
-* Employee Type Distribution
-* Average Salary by Work Year
-* Total Jobs KPI
-* Average Salary KPI
-* Country Count KPI
-* AI Job Market Insights
-* Highest-Growth Role Insight
+Provides a high-level summary of the AI job market using important KPIs and visualizations.
 
-### Interactive Filters
+Key areas include:
 
-Users can explore the data using filters such as:
-
-* Country
-* Experience
-* Job Role
-* Employee Type
-* Salary
-
-### Key Analytical Questions
-
-This page helps answer:
-
-* Where are AI jobs concentrated?
-* Which job roles dominate the market?
-* How does average salary change over time?
-* What types of employment opportunities are available?
-* Which AI roles are experiencing strong hiring growth?
-
-### Dashboard Preview
-
-![AI Job Market Overview](Screenshots/02_AI_Job_Market_Overview.png)
+* Total job opportunities
+* Job-role distribution
+* Salary analysis
+* Experience-level analysis
+* Skill demand
+* Overall market trends
 
 ---
 
-# 🧭 3. AI Career Roadmap
+### 2. 💼 Job Market Analysis
 
-The **AI Career Roadmap** page converts the job-market analysis into a structured learning journey.
+Analyzes the demand for different AI and technology positions.
 
-The roadmap is divided into three learning stages:
+Users can explore:
 
-### 🟢 Beginner
-
-* Python Basics
-* SQL Fundamentals
-* Excel Fundamentals
-* Statistics Basics
-* Data Visualization
-* Power BI
-
-### 🟡 Intermediate
-
-* Machine Learning
-* Data Analysis
-* Advanced Data Visualization
-* Deep Learning Basics
-* Feature Engineering
-
-### 🔴 Advanced
-
-* Advanced Deep Learning
-* Natural Language Processing
-* Computer Vision
-* MLOps
-* LLMs & Generative AI
-
-### Additional Analysis
-
-The page also contains:
-
-* Most Demanded AI Job Roles
-* Job Hiring Trend
-* Learning Difficulty Levels
-
-### Main Purpose
-
-This page bridges the gap between **job-market analysis and career development** by showing users a structured progression from beginner-level skills to advanced AI technologies.
-
-### Dashboard Preview
-
-![AI Career Roadmap](Screenshots/03_AI_Career_Roadmap.png)
+* Job roles
+* Job demand
+* Experience requirements
+* Salary patterns
+* Employment opportunities
+* Role-level comparisons
 
 ---
 
-# 💰 4. Salary Analysis
+### 3. 🧠 Skills Analysis
 
-The **Salary Analysis** page focuses on compensation trends within the AI job market.
+Focuses on the technical and professional skills demanded by employers.
 
-### Key KPIs
+The analysis helps identify:
 
-* Median Salary
-* Average Salary
-* Lowest Salary
-* Highest Salary
-
-### Main Visualizations
-
-* Salary by Experience
-* Salary by Job Role
-* Experience vs Salary
-* Salary by Country
-* Salary distribution across different experience levels
-
-### Interactive Filters
-
-* Country
-* Job Role
-* Time Duration
-
-### Key Analytical Questions
-
-This page helps users understand:
-
-* How does experience influence salary?
-* Which experience level has the highest average salary?
-* Which AI roles offer higher compensation?
-* How does salary vary geographically?
-* What is the overall salary range in the AI job market?
-
-### Dashboard Preview
-
-![Salary Analysis](Screenshots/04_Salary_Analysis.png)
+* Most in-demand skills
+* Skill frequency
+* Skills associated with specific job roles
+* Technology trends
+* Skills that aspiring professionals should prioritize
 
 ---
 
-# 🚀 5. AI Future Trends
+### 4. 💰 Salary Analysis
 
-The **AI Future Trends** page focuses on future opportunities and hiring patterns within the AI industry.
+Provides insights into salary patterns across AI-related positions.
 
-### Key KPIs
+Analysis includes:
 
-* Total Jobs
-* Remote Jobs
-* Projected AI Jobs
-* Fastest Growing Role
-
-### Main Visualizations
-
-* Hiring Growth Trend
-* Industry Growth
-* Salary Forecast
-* Remote Work Growth
-
-### Key Analytical Questions
-
-This page explores:
-
-* How is AI hiring changing over time?
-* How are remote AI opportunities growing?
-* Which company sizes contribute most to AI hiring?
-* What roles may become increasingly important?
-* What does the future AI job market look like?
-
-### Dashboard Preview
-
-![AI Future Trends](Screenshots/05_AI_Future_Trends.png)
+* Salary distribution
+* Salary by job role
+* Salary by experience level
+* Comparison between different positions
+* High-paying AI career opportunities
 
 ---
 
-# 💡 6. AI Career Insights
+### 5. 🌍 Geographic / Market Analysis
 
-The **AI Career Insights** page brings together important career-oriented findings from the dataset.
+Explores the geographical distribution of AI-related opportunities.
 
-### Key KPIs
+The dashboard can be used to analyze:
 
-* Remote Jobs
-* Average Salary
-* Employment Type
-* Experience Level
-
-### Main Visualizations
-
-* Demanded AI Job Roles
-* Salary Based on Experience
-* Learning Recommendations
-
-### Learning Recommendations
-
-The dashboard provides recommendations such as:
-
-* Advanced Deep Learning
-* MLOps Fundamentals
-* System Design for AI
-* Cloud for AI — AWS
-
-### Main Purpose
-
-This page transforms analytical results into **actionable career recommendations**, helping users understand what they could learn to progress toward advanced AI roles.
-
-### Dashboard Preview
-
-![AI Career Insights](Screenshots/06_AI_Career_Insights.png)
+* Countries/locations
+* Job concentration
+* Market opportunities
+* Regional differences
+* Geographic career opportunities
 
 ---
 
-# 🔎 Key Analytical Areas
+### 6. 🧭 Career Roadmap / Insights
 
-The project analyzes several important dimensions of the AI job market.
+The final analysis converts job-market findings into practical career insights.
 
-| Analytical Area | What It Analyzes                                 |
-| --------------- | ------------------------------------------------ |
-| Job Demand      | Number and distribution of AI jobs               |
-| Job Roles       | Most demanded AI positions                       |
-| Salary          | Average, median, minimum and maximum salary      |
-| Experience      | Relationship between experience and compensation |
-| Geography       | AI opportunities across countries                |
-| Employment      | Different employment types                       |
-| Hiring Trends   | Changes in hiring over time                      |
-| Remote Work     | Growth of remote AI opportunities                |
-| Industry        | Hiring by company size                           |
-| Career Skills   | Skills required at different career stages       |
-| Future Trends   | Emerging roles and technologies                  |
-| Recommendations | Suggested learning paths                         |
+It helps users understand:
+
+**Career Goal → Required Skills → Experience → Market Demand → Career Direction**
+
+This section is particularly useful for students and freshers planning their careers in AI, Data Analytics, Data Science, Machine Learning, and related fields.
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🔄 Data Preparation Workflow
 
-### 📊 Business Intelligence
-
-* **Microsoft Power BI**
-* Power BI Desktop
-* Power Query
-* DAX
-
-### 🐍 Data Analysis
-
-* **Python**
-* Pandas
-* Data Cleaning
-* Exploratory Data Analysis
-
-### 📁 Data
-
-* Excel
-* Structured AI job-market dataset
-
-### 📈 Data Visualization
-
-* Bar Charts
-* Line Charts
-* Donut Charts
-* KPI Cards
-* Maps
-* Area Charts
-* Interactive Filters/Slicers
-* Conditional Visual Elements
-
----
-
-# 🔄 Data Analytics Workflow
-
-The project follows a complete data analytics workflow:
+The project follows a structured data-analysis workflow:
 
 ```text
-Raw Dataset
-     ↓
-Data Inspection
-     ↓
-Data Cleaning
-     ↓
-Data Transformation
-     ↓
-Exploratory Data Analysis
-     ↓
-Power BI Data Import
-     ↓
-Data Modeling
-     ↓
-DAX Measures
-     ↓
-Interactive Visualizations
-     ↓
-Dashboard Development
-     ↓
-Insights & Recommendations
+Raw AI Job Market Dataset
+          ↓
+   Data Cleaning
+          ↓
+   Data Transformation
+          ↓
+   Power Query
+          ↓
+      Data Model
+          ↓
+     DAX Measures
+          ↓
+ Interactive Power BI Dashboard
+          ↓
+   Career Insights & Roadmap
 ```
+
+Python was used for preprocessing and cleaning the dataset before visualization and analysis in Power BI.
 
 ---
 
-# 🧹 Data Preparation
+## 🧹 Data Cleaning
 
-Before dashboard development, the dataset was prepared for analysis.
+The dataset was prepared before being used for dashboard development.
 
-The data preparation process included:
+Major data-cleaning activities included:
 
-* Inspecting the dataset structure
-* Identifying relevant columns
 * Handling missing values
-* Checking data types
-* Cleaning categorical values
-* Standardizing fields
+* Removing duplicate records
+* Standardizing column values
+* Cleaning text fields
+* Formatting numerical columns
 * Preparing salary-related fields
-* Preparing experience-level categories
-* Preparing job-role categories
-* Preparing country information
-* Creating analysis-ready fields
-* Validating the dataset before visualization
-
-Python and Pandas were used as part of the data preparation and analysis workflow.
+* Standardizing job-role information
+* Preparing data for Power BI analysis
 
 ---
 
-# 🧮 Power BI & DAX
+## 📐 Data Analysis
 
-Power BI was used to transform the prepared dataset into an interactive analytical dashboard.
+The project uses **DAX measures** and Power BI calculations to generate meaningful KPIs and analytical insights.
 
-The project uses calculated measures and analytical logic for metrics such as:
+Examples of analytical areas include:
 
-* Total Jobs
-* Average Salary
-* Median Salary
-* Minimum Salary
-* Maximum Salary
-* Job Growth
-* Remote Job Analysis
-* Salary Analysis
-* Job Demand
-* Forecast/Projection Metrics
-
-DAX was used to support KPI calculations, comparisons, aggregations, and dashboard-level analysis.
+* Job counts
+* Average salary
+* Skill demand
+* Role distribution
+* Experience-level distribution
+* Market comparisons
+* Career-oriented metrics
 
 ---
 
-# 🎨 Dashboard Design
-
-The dashboard was designed with a consistent **AI/technology-inspired visual theme**.
-
-### Design Principles
-
-* Clean navigation
-* Consistent typography
-* Interactive slicers
-* KPI-focused layouts
-* Visual hierarchy
-* Section-based dashboard organization
-* AI-themed illustrations and icons
-* Consistent blue and white visual identity
-* User-friendly navigation between dashboard pages
-
-The navigation structure allows users to move between:
-
-```text
-Overview
-   ↓
-Career Roadmap
-   ↓
-Skills & Salary
-   ↓
-Future Trends
-   ↓
-Career Recommendation
-```
-
----
-
-# 📈 Key Insights
-
-The dashboard provides several important analytical observations.
-
-### 1. AI Job Demand
-
-The dashboard demonstrates strong demand for AI-related professionals across different job roles and geographical markets.
-
-### 2. Experience & Salary
-
-Salary generally increases as professionals move from entry-level positions toward mid-level, senior, and executive-level roles.
-
-### 3. Growing AI Opportunities
-
-The hiring trend analysis highlights increasing AI-related job opportunities over the analyzed period.
-
-### 4. Remote Work
-
-Remote AI opportunities represent an important part of the evolving AI employment landscape.
-
-### 5. High-Demand Roles
-
-The dashboard identifies roles such as:
-
-* Data Scientist
-* Software Engineer
-* Data Engineer
-* Data Analyst
-* Machine Learning Engineer
-* AI Engineer
-* Research Scientist
-
-among the roles appearing prominently in the analyzed job market.
-
-### 6. Advanced Skills
-
-The career roadmap highlights advanced areas such as:
-
-* Deep Learning
-* NLP
-* Computer Vision
-* MLOps
-* LLMs
-* Generative AI
-
-as important areas for professionals progressing toward advanced AI careers.
-
----
-
-# 🎓 Career Learning Roadmap
-
-The project provides a structured learning progression.
-
-```text
-BEGINNER
-│
-├── Python
-├── SQL
-├── Excel
-├── Statistics
-└── Power BI
-        │
-        ▼
-INTERMEDIATE
-│
-├── Data Analysis
-├── Machine Learning
-├── Advanced Visualization
-├── Feature Engineering
-└── Deep Learning Basics
-        │
-        ▼
-ADVANCED
-│
-├── Deep Learning
-├── NLP
-├── Computer Vision
-├── MLOps
-└── LLMs & Generative AI
-```
-
-This roadmap is intended as a **career-planning framework**, rather than a replacement for a formal curriculum.
-
----
-
-# 📂 Repository Structure
+## 📁 Repository Structure
 
 ```text
 AI-Career-Roadmap-Analyzer/
 │
+├── AI Career Roadmap Analyzer.pbix
+│
+├── AI Job Market Dataset-selected-cleaned...
+│
+├── AI_Career_Dashboard_Insights_Report...
+│
+├── LICENSE
+│
 ├── README.md
 │
-├── PowerBI/
-│   └── AI_Career_Roadmap_Analyzer.pbix
-│
-├── Screenshots/
-│   ├── 01_Project_Overview.png
-│   ├── 02_AI_Job_Market_Overview.png
-│   ├── 03_AI_Career_Roadmap.png
-│   ├── 04_Salary_Analysis.png
-│   ├── 05_AI_Future_Trends.png
-│   └── 06_AI_Career_Insights.png
-│
-├── Data/
-│   └── AI_Job_Market_Cleaned.xlsx
-│
-└── Documentation/
-    └── Project_Report.pdf
+├── Screenshot 2026-07-24 132215.png
+├── Screenshot 2026-07-24 132241.png
+├── Screenshot 2026-07-24 132306.png
+├── Screenshot 2026-07-24 132331.png
+└── Screenshot 2026-07-24 132359.png
 ```
 
-> **Note:** The exact repository contents may vary depending on which project files are included.
+### 📄 File Descriptions
+
+**`.pbix`**
+Contains the complete Power BI report, data model, transformations, DAX calculations, visualizations, filters, and dashboard pages.
+
+**AI Job Market Dataset**
+Cleaned dataset used as the primary source for the Power BI analysis.
+
+**Dashboard Insights Report**
+Contains documented findings and analytical insights generated from the project.
+
+**Screenshots**
+Provide visual previews of the Power BI dashboard pages.
+
+**LICENSE**
+Defines the terms under which this project can be used.
 
 ---
 
-# 📸 Dashboard Preview
+## 📸 Dashboard Preview
 
-## Project Overview
+The repository contains screenshots of the completed Power BI dashboard to provide a visual overview of the project.
 
-![Project Overview](Screenshots/01_Project_Overview.png)
+### Dashboard Screenshots
 
-## AI Job Market Overview
+![Dashboard Screenshot 1](Screenshot%202026-07-24%20132215.png)
 
-![AI Job Market Overview](Screenshots/02_AI_Job_Market_Overview.png)
+![Dashboard Screenshot 2](Screenshot%202026-07-24%20132241.png)
 
-## AI Career Roadmap
+![Dashboard Screenshot 3](Screenshot%202026-07-24%20132306.png)
 
-![AI Career Roadmap](Screenshots/03_AI_Career_Roadmap.png)
+![Dashboard Screenshot 4](Screenshot%202026-07-24%20132331.png)
 
-## Salary Analysis
-
-![Salary Analysis](Screenshots/04_Salary_Analysis.png)
-
-## AI Future Trends
-
-![AI Future Trends](Screenshots/05_AI_Future_Trends.png)
-
-## AI Career Insights
-
-![AI Career Insights](Screenshots/06_AI_Career_Insights.png)
+![Dashboard Screenshot 5](Screenshot%202026-07-24%20132359.png)
 
 ---
 
-# ▶️ How to Use the Project
+## 🔍 Key Questions Answered
+
+The project is designed to answer questions such as:
+
+* Which AI job roles are most in demand?
+* What skills are most frequently requested by employers?
+* Which AI roles offer higher salary opportunities?
+* How does salary vary with experience?
+* Which locations have greater AI job opportunities?
+* What technical skills should an aspiring AI professional learn?
+* Which career paths align with current market demand?
+* What skill combinations are associated with different AI roles?
+
+---
+
+## 💡 Business & Career Value
+
+This project demonstrates how data analytics can be applied beyond traditional business reporting to **career and workforce intelligence**.
+
+The dashboard can help:
+
+### 👨‍🎓 Students & Freshers
+
+Identify the skills and technologies currently demanded by employers.
+
+### 💼 Job Seekers
+
+Compare AI-related roles and understand their requirements.
+
+### 📚 Career Planners
+
+Build a data-driven learning roadmap based on market demand.
+
+### 🏢 Organizations
+
+Understand broader AI hiring and skill-demand trends.
+
+---
+
+## 🚀 How to Use the Project
 
 ### Step 1 — Download the Repository
 
-Clone or download this repository.
+Clone or download this repository from GitHub.
 
-```bash
-git clone https://github.com/YOUR-USERNAME/AI-Career-Roadmap-Analyzer.git
-```
-
-### Step 2 — Open Power BI
+### Step 2 — Open the Power BI File
 
 Open:
 
 ```text
-PowerBI/AI_Career_Roadmap_Analyzer.pbix
+AI Career Roadmap Analyzer.pbix
 ```
 
 using **Microsoft Power BI Desktop**.
 
 ### Step 3 — Explore the Dashboard
 
-Navigate through the six dashboard pages:
+Use the available:
 
-1. Project Overview
-2. AI Job Market Overview
-3. AI Career Roadmap
-4. Salary Analysis
-5. AI Future Trends
-6. AI Career Insights
+* Filters
+* Slicers
+* Charts
+* KPI cards
+* Tables
+* Interactive visualizations
 
-### Step 4 — Interact With Filters
+to explore the AI job market.
 
-Use the available slicers and filters to analyze the dashboard according to:
+### Step 4 — Analyze Career Insights
 
-* Country
-* Job Role
-* Experience
-* Employee Type
-* Salary
-* Time Duration
+Use the career and skills analysis to understand which technologies and capabilities are currently relevant to different AI career paths.
 
 ---
 
-# 🎯 Business Questions Answered
+## 📈 Project Workflow
 
-This project can help answer questions such as:
-
-### Job Market
-
-* Which AI roles are most demanded?
-* How is AI hiring changing over time?
-* Which countries have AI job opportunities?
-
-### Salary
-
-* What is the average AI salary?
-* What is the median salary?
-* How does experience affect salary?
-* Which roles have higher salary potential?
-
-### Career Development
-
-* What should a beginner learn?
-* Which skills are required for intermediate AI careers?
-* What advanced technologies should an AI professional learn?
-
-### Future Opportunities
-
-* How are remote AI jobs growing?
-* Which roles are emerging?
-* How is the AI job market expected to evolve?
+```text
+Data Collection
+      ↓
+Data Cleaning with Python
+      ↓
+Data Transformation
+      ↓
+Power Query
+      ↓
+Data Modeling
+      ↓
+DAX Calculations
+      ↓
+Dashboard Development
+      ↓
+Interactive Analysis
+      ↓
+Career Insights
+```
 
 ---
 
-# 💼 Skills Demonstrated
+## ⭐ Skills Demonstrated
 
-This project demonstrates practical skills relevant to **Data Analyst / BI Analyst / Business Intelligence** roles.
-
-### Technical Skills
+This project demonstrates practical skills in:
 
 * Power BI
-* DAX
 * Power Query
-* Python
-* Pandas
-* Excel
+* DAX
 * Data Cleaning
 * Data Transformation
-* Data Analysis
+* Data Modeling
 * Data Visualization
-* Dashboard Development
-
-### Analytical Skills
-
-* KPI Development
-* Trend Analysis
-* Comparative Analysis
-* Salary Analysis
-* Geographic Analysis
-* Career Analytics
-* Data Storytelling
-* Insight Generation
-
-### Soft Skills
-
-* Problem Solving
+* Exploratory Data Analysis
+* Python
+* Pandas
+* Dashboard Design
+* Business Intelligence
 * Analytical Thinking
-* Business Communication
-* Visualization & Presentation
-* Research & Interpretation
+* Career Market Analysis
+* Data Storytelling
 
 ---
 
-# 🚀 Future Improvements
+## 📌 Future Improvements
 
 Potential future enhancements include:
 
-* [ ] Add a machine-learning-based career recommendation model.
-* [ ] Develop personalized recommendations based on user skills.
-* [ ] Add AI skill-gap analysis.
-* [ ] Add job-role prediction.
-* [ ] Integrate live job-market APIs.
-* [ ] Add real-time salary data.
-* [ ] Add job-description keyword analysis.
-* [ ] Add skill-demand forecasting.
-* [ ] Add an AI-powered career chatbot.
-* [ ] Publish the dashboard through Power BI Service.
-* [ ] Create a web application version using Streamlit.
+* Integration with live job-market APIs
+* Automated dataset updates
+* AI-powered career recommendations
+* Personalized skill-gap analysis
+* Job-role recommendation system
+* Machine Learning-based salary prediction
+* Resume-to-job matching
+* Personalized learning roadmap generation
+* Interactive career recommendation engine
 
 ---
 
-# 📌 Project Limitations
+## 👩‍💻 Author
 
-The dashboard is based on the available dataset and its historical information.
+**Dhavanreet Kaur**
 
-Therefore:
+Aspiring **Data Analyst | Power BI Developer | Python & SQL Enthusiast**
 
-* Results depend on the quality and coverage of the dataset.
-* Salary figures may vary across organizations and locations.
-* Forecasting/projection results should be interpreted as analytical estimates.
-* Career recommendations are informational and should not be considered professional career advice.
-* Job-market conditions can change rapidly as AI technologies evolve.
+This project was developed as part of my practical learning and portfolio development in **Data Analytics and Business Intelligence**.
 
 ---
 
-# 👨‍💻 Author
+## 📜 License
 
-## Dhavnreet Kaur
-
-**B.Tech — Computer Science & Engineering**
-
-Aspiring **Data Analyst | Power BI Developer | Python Enthusiast**
-
-### Areas of Interest
-
-* Data Analytics
-* Business Intelligence
-* Power BI
-* Python
-* SQL
-* Data Visualization
-* Machine Learning
-* Artificial Intelligence
+This project is available under the license included in the repository.
 
 ---
 
-# ⭐ If You Find This Project Useful
+## ⭐ Support
 
-If you find this project useful or interesting:
+If you find this project useful, consider giving the repository a **⭐ Star** on GitHub.
 
-⭐ **Star this repository**
-
-🍴 **Fork the repository**
-
-💼 **Connect with me on LinkedIn**
-
----
-
-# 📄 License
-
-This project is created for **educational, portfolio, and data analytics learning purposes**.
-
-If the dataset used in this project has a separate license or attribution requirement, please refer to the original dataset source and comply with its terms.
-
----
-
-## 🏆 Project Summary
-
-> **AI Career Roadmap Analyzer transforms AI job-market data into an interactive career intelligence dashboard, helping users explore job demand, salaries, hiring trends, emerging opportunities, and the skills required to build a career in Artificial Intelligence.**
-
-**Built with ❤️ using Power BI, Python, Pandas, DAX, Power Query & Excel.**
+**Thank you for visiting the AI Career Roadmap Analyzer!**
